@@ -2,7 +2,7 @@
 
 A single page web application that displays trending GIFs on Giphy.
 
-[Demo](http://ec2-34-209-235-160.us-west-2.compute.amazonaws.com/)
+Demo
 
 ![](https://thumbs.gfycat.com/WhisperedAmbitiousAmurminnow-size_restricted.gif)
 
@@ -62,7 +62,7 @@ npm test
 
 Quick and dirty deployment with Docker and AWS EC2 
 
-[GIF Search](http://ec2-34-209-235-160.us-west-2.compute.amazonaws.com/)
+~~GIF Search~~
 
 ## Built with
 
@@ -76,8 +76,8 @@ Quick and dirty deployment with Docker and AWS EC2
 * State management is a bit messy. Refactor with redux.
 * Clean up CSS with [styled-components](https://www.styled-components.com/). (in progress)
 * Refine gallery: customize react-grid-gallery
-* Lazy loading to improve network performance: will alllow app to get higher quality GIFs instead of loading the lower quality preview GIFs
-* Pagination on scroll: when user scrolls to the bottom of the page, get more GIFs
-* Functional upload page: can include persistent storage or maybe redirect to Giphy upload
+* Lazy loading to improve network performance: will alllow app to get higher quality GIFs instead of loading the lower quality preview GIFs (in progress)
+* Pagination on scroll: when user scrolls to the bottom of the page, get more GIFs (in progress)
+* Functional upload page: can include persistent storage or maybe redirect to Giphy upload (in progress)
 * More testing
 * Prevent memory leak when component unmounted
